@@ -1,0 +1,64 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* lists */
+ul.input-list {
+    list-style: none;
+    margin: 0 230px;
+    padding: 0;
+}
+ul.input-list li {
+    display: block;
+    padding: 0 10px;
+    width: 50%;
+    float: left;
+}
+
+@media all and (max-width: 800px) {
+    ul.input-list {
+        margin: 0;
+    }
+    ul.input-list li {
+        padding: 0;
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+
+/* ============================================================
+  STYLE 2
+============================================================ */
+.style-2 input[type="text"] {
+    padding: 10px;
+    border: solid 5px #c9c9c9;
+    -webkit-transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    -o-transition: border 0.3s;
+    transition: border 0.3s;
+}
+.style-2 input[type="text"]:focus, .style-2 input[type="text"].focus {
+    border: solid 5px #969696;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -63px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    right: 100px;
+}
